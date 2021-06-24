@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/shopware/5.3/engine/Shopware/Components/Plugin/schema/config.xsd">
+    <elements>
+        <element required="true" type="text" scope="locale">
+            <name>simpleTextField</name>
+            <label lang="en">Text</label>
+            <value>preselection</value>
+            <description lang="en">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut.</description>
+        </element>
+        <element required="true" type="boolean" scope="locale">
+            <name>TextingBackend</name>
+            <label>Enable TextElement in Backend</label>
+            <value>0</value>
+            <description>Shopping World ELement</description>
+        </element>
+        <element type="color">
+            <name>Colorpicker</name>
+            <label>Enable color in Backend</label>
+            <value>0</value>
+            <description>Shopping World ELement</description>
+        </element>
+    </elements>
+</config>
